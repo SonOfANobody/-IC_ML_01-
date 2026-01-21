@@ -1,2 +1,55 @@
-# -IC_ML_01-
-The Weather Forecasting System is a data-driven machine learning project designed to predict key weather parameters such as temperature, rainfall and humidity using historical data. The project demonstrates strong expertise in time-series analysis, regression techniques and deep learning architecture making it relevant for roles in data science etc
+Project Title
+
+Weather Forecasting Using Machine Learning and Deep Learning
+
+Overview
+
+This project focuses on predicting future weather conditions such as temperature, rainfall, and humidity using historical weather data. The system applies statistical, machine learning, and deep learning techniques to analyze time-series patterns and produce accurate forecasts.
+
+Objectives
+
+Predict future weather parameters
+
+Analyze seasonal and trend patterns
+
+Compare traditional and deep learning forecasting models
+
+Key Features
+
+Time-series data preprocessing
+
+Data visualization and trend analysis
+
+Regression-based forecasting
+
+Deep learning models (LSTM/RNN)
+
+Model performance evaluation
+
+Technologies Used
+
+Python
+
+Pandas, NumPy
+
+Matplotlib
+
+Scikit-learn
+
+TensorFlow / Keras
+
+Models Implemented
+
+Linear Regression
+
+ARIMA
+
+LSTM (Long Short-Term Memory)
+
+Expected Output
+
+Graphical forecast plots
+
+Error metrics (MAE, RMSE)
+
+Future weather predictions
