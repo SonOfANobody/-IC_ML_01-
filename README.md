@@ -1,14 +1,9 @@
-Project Title
+🌦 Project Title: Weather Temperature Forecasting Project
+📌 Overview
 
-Weather Forecasting Using Machine Learning and Deep Learning
+This project builds a machine learning pipeline to predict ambient temperature using historical weather data. The solution includes feature engineering, preprocessing, model tuning, and deployment.
 
-
-Overview
-
-This project focuses on predicting future weather conditions such as temperature, rainfall, and humidity using historical weather data. The system applies statistical, machine learning, and deep learning techniques to analyze time-series patterns and produce accurate forecasts.
-
-
-Objectives
+📌 Objectives
 
 Predict future weather parameters
 
@@ -16,21 +11,38 @@ Analyze seasonal and trend patterns
 
 Compare traditional and deep learning forecasting models
 
-
-
-Key Features
-
+🧠 Features
 Time-series data preprocessing
 
 Data visualization and trend analysis
 
-Regression-based forecasting
+Datetime feature extraction (hour, day, month, season)
 
-Deep learning models (LSTM/RNN)
+Lag features for temporal dependency
+
+Robust preprocessing with pipelines
+
+Hyperparameter tuning using GridSearchCV
+
+Model explainability via feature importance
+
+Regression-based forecasting
 
 Model performance evaluation
 
+🏗 Models Used
 
+Linear Regression (baseline)
+
+Random Forest Regressor (tuned)
+
+📊 Evaluation Metrics
+
+Mean Absolute Error (MAE)
+
+Root Mean Squared Error (RMSE)
+
+R² Score
 
 Technologies Used
 
@@ -45,20 +57,13 @@ Scikit-learn
 TensorFlow / Keras
 
 
+🚀 How to Run
+pip install -r requirements.txt
+streamlit run app.py
 
-Models Implemented
-
-Linear Regression
-
-ARIMA
-
-LSTM (Long Short-Term Memory)
-
-
-Expected Output
-
-Graphical forecast plots
-
-Error metrics (MAE, RMSE)
-
-Future weather predictions
+📁 Project Structure
+├── app.py
+├── weather_temperature_model.pkl
+├── notebook.ipynb
+├── requirements.txt
+└── README.md
