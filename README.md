@@ -67,4 +67,6 @@ streamlit run app.py
 ├── weather_temperature_model.pkl
 ├── notebook.ipynb
 ├── requirements.txt
-└── README.md
+└── README.md 
+
+📬 Contact For questions or collaboration: Muhammad Abdulkareem 📧 Email: abdulkareemmuhammad683@gmail.com 💼 LinkedIn: www.linkedin.com/in/sonofanobody12
