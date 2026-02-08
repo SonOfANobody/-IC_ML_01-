@@ -1,4 +1,5 @@
 🌦 Project Title: Weather Temperature Forecasting Project
+
 📌 Overview
 
 This project builds a machine learning pipeline to predict ambient temperature using historical weather data. The solution includes feature engineering, preprocessing, model tuning, and deployment.
@@ -44,7 +45,7 @@ Root Mean Squared Error (RMSE)
 
 R² Score
 
-Technologies Used
+🏗 Technologies Used
 
 Python
 
